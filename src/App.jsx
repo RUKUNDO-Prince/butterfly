@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css'
+import './App.css'
 import { Home, About, Services, Portfolio, Team, Contact, Header, Footer, Counts, Clients, Testimonials, Gallery } from './components/index.js';
 
 const App = () => {

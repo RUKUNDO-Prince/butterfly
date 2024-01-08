@@ -42,18 +42,18 @@ const Services = () => {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-wow-delay="0.2s">
-            <div class="icon-box">
-              <div class="icon"><Icon icon="bi:globe" color="#d6ff22" /></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          <div className="col-lg-4 col-md-6" data-wow-delay="0.2s">
+            <div className="icon-box">
+              <div className="icon"><Icon icon="bi:globe" color="#d6ff22" /></div>
+              <h4 className="title"><a href="">Nemo Enim</a></h4>
+              <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6" data-wow-delay="0.2s">
-            <div class="icon-box">
-              <div class="icon"><Icon icon="bi:clock" color="#4680ff" /></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+          <div className="col-lg-4 col-md-6" data-wow-delay="0.2s">
+            <div className="icon-box">
+              <div className="icon"><Icon icon="bi:clock" color="#4680ff" width="7000" /></div>
+              <h4 className="title"><a href="">Eiusmod Tempor</a></h4>
+              <p className="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
           </div>
         </div>

@@ -7,82 +7,82 @@ import { Icon } from '@iconify/react';
 
 const Team = () => {
   return (
-    <section id="team" class="team section-bg">
-      <div class="container">
+    <section id="team" className="team section-bg">
+      <div className="container">
 
-        <div class="section-title">
+        <div className="section-title">
           <h2>Team</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
-        <div class="row">
+        <div className="row">
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src={team1} class="img-fluid" alt="" />
-                <div class="social">
+          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div className="member">
+              <div className="member-img">
+                <img src={team1} className="img-fluid" alt="" />
+                <div className="social">
                   <a href=""><Icon icon="devicon:twitter" /></a>
                   <a href=""><Icon icon="bi:facebook" /></a>
                   <a href=""><Icon icon="bi:instagram" /></a>
                   <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Walter White</h4>
                 <span>Chief Executive Officer</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src={team2} class="img-fluid" alt="" />
-                <div class="social">
+          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div className="member">
+              <div className="member-img">
+                <img src={team2} className="img-fluid" alt="" />
+                <div className="social">
                   <a href=""><Icon icon="devicon:twitter" /></a>
                   <a href=""><Icon icon="bi:facebook" /></a>
                   <a href=""><Icon icon="bi:instagram" /></a>
                   <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Sarah Jhonson</h4>
                 <span>Product Manager</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src={team3} class="img-fluid" alt="" />
-                <div class="social">
+          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div className="member">
+              <div className="member-img">
+                <img src={team3} className="img-fluid" alt="" />
+                <div className="social">
                   <a href=""><Icon icon="devicon:twitter" /></a>
                   <a href=""><Icon icon="bi:facebook" /></a>
                   <a href=""><Icon icon="bi:instagram" /></a>
                   <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>William Anderson</h4>
                 <span>CTO</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member">
-              <div class="member-img">
-                <img src={team4} class="img-fluid" alt="" />
-                <div class="social">
+          <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div className="member">
+              <div className="member-img">
+                <img src={team4} className="img-fluid" alt="" />
+                <div className="social">
                   <a href=""><Icon icon="devicon:twitter" /></a>
                   <a href=""><Icon icon="bi:facebook" /></a>
                   <a href=""><Icon icon="bi:instagram" /></a>
                   <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
-              <div class="member-info">
+              <div className="member-info">
                 <h4>Amanda Jepson</h4>
                 <span>Accountant</span>
               </div>
