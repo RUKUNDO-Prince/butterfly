@@ -1,10 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Home, About, Services, Portfolio, Team, Contact, Header, Footer } from './components/index.js';
 
 const App = () => {
   return (
-    <div>
-      App
-    </div>
+    <>
+      <Header />
+      <Home />
+      <About />
+      <Services />
+      <Portfolio />
+      <Team />
+      <Contact />
+      <Footer />
+    </>
   )
 }
 
