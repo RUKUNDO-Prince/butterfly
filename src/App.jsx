@@ -1,5 +1,6 @@
 import React from 'react';
-import { Home, About, Services, Portfolio, Team, Contact, Header, Footer } from './components/index.js';
+import './app.css'
+import { Home, About, Services, Portfolio, Team, Contact, Header, Footer, Counts, Clients, Testimonials, Gallery } from './components/index.js';
 
 const App = () => {
   return (
@@ -7,9 +8,13 @@ const App = () => {
       <Header />
       <Home />
       <About />
+      <Counts />
+      <Clients />
       <Services />
       <Portfolio />
+      <Testimonials />
       <Team />
+      <Gallery />
       <Contact />
       <Footer />
     </>

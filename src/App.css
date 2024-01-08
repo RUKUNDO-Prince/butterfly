@@ -62,13 +62,12 @@ h6 {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  width: 100%;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
 }
 
 #header .logo {
   font-size: 28px;
-  margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -83,6 +82,7 @@ h6 {
 
 #header .logo img {
   max-height: 40px;
+  max-width: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -95,6 +95,13 @@ h6 {
   padding: 0;
 }
 
+.nav-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -104,7 +111,7 @@ h6 {
 }
 
 .navbar li {
-  position: relative;
+  /* position: relative; */
 }
 
 .navbar a,

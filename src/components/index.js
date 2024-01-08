@@ -6,6 +6,10 @@ import Services from "./Services";
 import Team from "./Team";
 import Header from "./Header";
 import Footer from "./Footer";
+import Counts from "./Counts";
+import Clients from "./Clients";
+import Testimonials from "./Testimonials";
+import Gallery from "./Gallery";
 
 export {
     About,
@@ -15,5 +19,9 @@ export {
     Services,
     Team,
     Header,
-    Footer
+    Footer,
+    Counts,
+    Clients,
+    Testimonials,
+    Gallery
 }
