@@ -7,7 +7,7 @@ const Header = () => {
     <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" className="logo"><img src={logo} alt="" className="img-fluid" /></a>
+      <a href="/" className="logo"><img src={logo} alt="" className="img-fluid" /></a>
 
       <nav id="navbar" className="navbar">
         <ul>
