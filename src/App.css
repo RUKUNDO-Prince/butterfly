@@ -477,7 +477,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+  background: url("../src/assets/img/about.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -572,7 +572,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: url("../img/counts-bg.jpg") center center no-repeat;
+  background: url("../src/assets/img/counts-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 80px 0 60px 0;
   position: relative;
@@ -675,7 +675,7 @@ section {
 
 .services .icon {
   position: absolute;
-  left: -20px;
+  /* left: -20px; */
   top: calc(50% - 30px);
 }
 
@@ -933,7 +933,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/cta-bg.jpg") no-repeat;
+  background: url("../src/assets/img/cta-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1135,8 +1135,9 @@ section {
   background: #fff;
 }
 
-.contact .info i {
-  font-size: 20px;
+.contact .info .icon {
+  font-size: 2px;
+  padding: 10px;
   color: #49b5e7;
   float: left;
   width: 44px;

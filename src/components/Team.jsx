@@ -1,4 +1,9 @@
 import React from 'react'
+import team1 from '../assets/img/team/team-1.jpg'
+import team2 from '../assets/img/team/team-2.jpg'
+import team3 from '../assets/img/team/team-3.jpg'
+import team4 from '../assets/img/team/team-4.jpg'
+import { Icon } from '@iconify/react';
 
 const Team = () => {
   return (
@@ -15,12 +20,12 @@ const Team = () => {
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                <img src={team1} class="img-fluid" alt="" />
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><Icon icon="devicon:twitter" /></a>
+                  <a href=""><Icon icon="bi:facebook" /></a>
+                  <a href=""><Icon icon="bi:instagram" /></a>
+                  <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
               <div class="member-info">
@@ -33,12 +38,12 @@ const Team = () => {
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" />
+                <img src={team2} class="img-fluid" alt="" />
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><Icon icon="devicon:twitter" /></a>
+                  <a href=""><Icon icon="bi:facebook" /></a>
+                  <a href=""><Icon icon="bi:instagram" /></a>
+                  <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
               <div class="member-info">
@@ -51,12 +56,12 @@ const Team = () => {
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" />
+                <img src={team3} class="img-fluid" alt="" />
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><Icon icon="devicon:twitter" /></a>
+                  <a href=""><Icon icon="bi:facebook" /></a>
+                  <a href=""><Icon icon="bi:instagram" /></a>
+                  <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
               <div class="member-info">
@@ -69,12 +74,12 @@ const Team = () => {
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                <img src={team4} class="img-fluid" alt="" />
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><Icon icon="devicon:twitter" /></a>
+                  <a href=""><Icon icon="bi:facebook" /></a>
+                  <a href=""><Icon icon="bi:instagram" /></a>
+                  <a href=""><Icon icon="bi:linkedin" /></a>
                 </div>
               </div>
               <div class="member-info">
