@@ -676,10 +676,11 @@ section {
 .services .icon {
   position: absolute;
   /* left: -20px; */
+  left: -10px;
   top: calc(50% - 30px);
 }
 
-.services .icon i {
+.services .icon .icon-item {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
