@@ -4,10 +4,10 @@ import { Icon } from '@iconify/react';
 const Footer = () => {
   return (    
     <footer id="footer">
-      <div class="footer-newsletter">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
+      <div className="footer-newsletter">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
               <h4>Join Our Newsletter</h4>
               <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
               <form action="" method="post">
@@ -18,11 +18,11 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
 
-            <div class="col-lg-3 col-md-6 footer-contact">
+            <div className="col-lg-3 col-md-6 footer-contact">
               <h3>Butterfly</h3>
               <p>
                 A108 Adam Street <br />
@@ -33,7 +33,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div className="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li><Icon icon="material-symbols:chevron-right" color="#49b5e7" /> <a href="#">Home</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div className="col-lg-3 col-md-6 footer-links">
               <h4>Our Services</h4>
               <ul>
                 <li><Icon icon="material-symbols:chevron-right" color="#49b5e7" /> <a href="#">Web Design</a></li>
@@ -55,15 +55,15 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div className="col-lg-3 col-md-6 footer-links">
               <h4>Our Social Networks</h4>
               <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><Icon icon="bxl:twitter" /></a>
-                <a href="#" class="facebook"><Icon icon="eva:facebook-fill" /></a>
-                <a href="#" class="instagram"><Icon icon="bxl:instagram" /></a>
-                <a href="#" class="google-plus"><Icon icon="bxl:skype" /></a>
-                <a href="#" class="linkedin"><Icon icon="bxl:linkedin" /></a>
+              <div className="social-links mt-3">
+                <a href="#" className="twitter"><Icon icon="bxl:twitter" /></a>
+                <a href="#" className="facebook"><Icon icon="eva:facebook-fill" /></a>
+                <a href="#" className="instagram"><Icon icon="bxl:instagram" /></a>
+                <a href="#" className="google-plus"><Icon icon="bxl:skype" /></a>
+                <a href="#" className="linkedin"><Icon icon="bxl:linkedin" /></a>
               </div>
             </div>
 
@@ -71,12 +71,12 @@ const Footer = () => {
         </div>
       </div>
 
-      <div class="container py-4">
-        <div class="copyright">
+      <div className="container py-4">
+        <div className="copyright">
           &copy; Copyright <strong><span>Butterfly</span></strong>. All Rights Reserved
         </div>
-        <div class="credits">
-          Designed by <a href="https://rukundo-prince.vercel.app/" target='_blank'>Prince RUKUNDO</a>
+        <div className="credits">
+          Developed by <a href="https://rukundo-prince.vercel.app/" target='_blank'>Prince RUKUNDO</a>
         </div>
       </div>
     </footer>
