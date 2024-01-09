@@ -440,9 +440,9 @@ section {
   transition: 0.5s;
 }
 
-.about .icon-box .icon i {
+.about .icon-box .icon .icon-item {
   color: #49b5e7;
-  font-size: 32px;
+  padding: 12px;
 }
 
 .about .icon-box:hover .icon {

@@ -16,19 +16,19 @@ const About = () => {
             <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
 
             <div className="icon-box">
-              <div className="icon"><Icon icon="bx:fingerprint" color="#1da2e0" /></div>
+              <div className="icon"><Icon icon="bx:fingerprint" color="#1da2e0" className='icon icon-item' /></div>
               <h4 className="title"><a href="">Lorem Ipsum</a></h4>
               <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
 
             <div className="icon-box">
-              <div className="icon"><Icon icon="bx:gift" color="#1da2e0" /></div>
+              <div className="icon"><Icon icon="bx:gift" color="#1da2e0" className='icon icon-item' /></div>
               <h4 className="title"><a href="">Nemo Enim</a></h4>
               <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
 
             <div className="icon-box">
-              <div className="icon"><Icon icon="tabler:atom" color="#1da2e0" /></div>
+              <div className="icon"><Icon icon="tabler:atom" color="#1da2e0" className='icon icon-item' /></div>
               <h4 className="title"><a href="">Dine Pad</a></h4>
               <p className="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
             </div>
