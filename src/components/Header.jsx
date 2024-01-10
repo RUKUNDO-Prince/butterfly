@@ -36,7 +36,8 @@ const Header = () => {
           <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
-        <Icon icon="fluent-mdl2:breadcrumb" className='mobile-nav-toggle' />
+        <Icon icon="fluent-mdl2:breadcrumb" className='mobile-nav-toggle bi bi-list' />
+        <Icon icon="uil:x" className='mobile-nav-toggle bi bi-x' />
       </nav>
 
     </div>
