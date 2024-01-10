@@ -3,18 +3,20 @@ import img from '../assets/img/hero-img.png'
 
 const Home = () => {
   return (
-    <section id="hero" className="d-flex align-items-center">
+    // eslint-disable-next-line no-undef
+    <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: `url(${img})`, backgroundSize:'100%' }}>
 
-    <div className="container">
+    <div className="container" >
       <div className="row">
         <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1>Creating websites that make you stop & stare</h1>
-          <h2>Accusantium quam, aliquam ultricies eget tempor id, aliquam eget nibh et. Maecen aliquam, risus at semper. Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum.</h2>
+          <h1>Bring Your Business Online With IT Company Services</h1>
+          {/* <h2>Empower your business with cutting-edge IT solutions tailored to elevate performance, amplify innovation, and drive digital transformation. 
+            <br />From bespoke software development to seamless cloud integration, we're your partner in building a future-ready foundation for success.</h2> */}
           <div><a href="#about" className="btn-get-started scrollto">Get Started</a></div>
         </div>
-        <div className="col-lg-6 order-1 order-lg-2 hero-img">
+        {/* <div className="col-lg-6 order-1 order-lg-2 hero-img">
           <img src={img} className="img-fluid" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
 
