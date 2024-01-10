@@ -1,16 +1,20 @@
 import React from 'react'
-import portfolio1 from '../assets/img/portfolio/portfolio-1.jpg'
-import portfolio2 from '../assets/img/portfolio/portfolio-2.jpg'
-import portfolio3 from '../assets/img/portfolio/portfolio-3.jpg'
-import portfolio4 from '../assets/img/portfolio/portfolio-4.jpg'
-import portfolio5 from '../assets/img/portfolio/portfolio-5.jpg'
-import portfolio6 from '../assets/img/portfolio/portfolio-6.jpg'
-import portfolio7 from '../assets/img/portfolio/portfolio-7.jpg'
-import portfolio8 from '../assets/img/portfolio/portfolio-8.jpg'
-import portfolio9 from '../assets/img/portfolio/portfolio-9.jpg'
 import { Icon } from '@iconify/react';
 
 const Portfolio = () => {
+
+  const portfolios = [
+      { title: "Elissa-DI", simpleDescription: 'Unrivaled Gym. Unparalleled Training Fitness Classes. ', website: 'https://fitpulse1.netlify.app/', pic: 'https://fitpulse1.netlify.app/assets/HomePageGraphic-JlZ3Ss5z.png'},
+      { title: "AI Visuage", simpleDescription: 'AI Visuage', website: 'https://ai-visuage.netlify.app/', pic: 'https://ai-visuage.netlify.app/assets/logo-3d2a5717.png'},
+      { title: "Family Plan", simpleDescription: 'Family Plan', website: 'https://traileress.vercel.app/', pic: 'https://image.tmdb.org/t/p/w500/a6syn9qcU4a54Lmi3JoIr1XvhFU.jpg'},
+      { title: "Teamate", simpleDescription: 'Hire super Humans', website: 'https://teammate-xh9u.vercel.app/', pic: 'https://teammate-xh9u.vercel.app/images/superHumans.png'},
+      { title: "Games Hub", simpleDescription: 'Games Hub', website: 'https://game-hub-rho-ochre.vercel.app/', pic: 'https://game-hub-rho-ochre.vercel.app/assets/logo-ff4914e6.webp'},
+      { title: "World Cities Chi", simpleDescription: 'World Cities Chi', website: 'https://world-cities-chi.vercel.app/', pic: 'https://world-cities-chi.vercel.app/Images/tokyo.jpg'},
+      { title: "Dani International", simpleDescription: 'Dani International', website: 'https://daniint.com/', pic: 'https://codinghustler.com/assets/project/project-one.png'},
+      { title: "Floor Range", simpleDescription: 'Think, Choose & we will Decor it.', website: 'https://www.floorrange.com/', pic: 'https://codinghustler.com/assets/project/project-two.png'},
+      { title: "ZUMIAS", simpleDescription: 'ZUMIAS', website: 'https://zumias.netlify.app/', pic: 'https://codinghustler.com/assets/project/project-three.png'},
+  ]
+
   return (
     <section id="portfolio" className="portfolio">
       <div className="container">
@@ -33,131 +37,21 @@ const Portfolio = () => {
 
         <div className="row portfolio-container">
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={portfolio1} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div className="portfolio-links">
-                  <a href={portfolio1} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
+          {portfolios.map((item, index) => (
+              <div className="col-lg-4 col-md-6 portfolio-item filter-app" key={index}>
+                <div className="portfolio-wrap">
+                  <img src={item.pic} className="img-fluid cover" alt="" />
+                  <div className="portfolio-info">
+                    <h4>{item.title}</h4>
+                    <p>{item.simpleDescription}</p>
+                    <div className="portfolio-links">
+                      <a href={item.pic} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 1"><Icon icon="bx:plus" /></a>
+                      <a href={item.website} aria-disabled title="More Details" target="_blank"><Icon icon="bx:link" /></a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div className="portfolio-wrap">
-              <img src={portfolio2} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div className="portfolio-links">
-                  <a href={portfolio2} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={portfolio3}className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div className="portfolio-links">
-                  <a href={portfolio3} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 2"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div className="portfolio-wrap">
-              <img src={portfolio4} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div className="portfolio-links">
-                  <a href={portfolio4} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 2"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div className="portfolio-wrap">
-              <img src={portfolio5} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div className="portfolio-links">
-                  <a href={portfolio5}data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 2"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={portfolio6} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div className="portfolio-links">
-                  <a href={portfolio6} data-gallery="portfolioGallery" className="portfolio-lightbox" title="App 3"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div className="portfolio-wrap">
-              <img src={portfolio7} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div className="portfolio-links">
-                  <a href={portfolio7} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 1"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div className="portfolio-wrap">
-              <img src={portfolio8} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div className="portfolio-links">
-                  <a href={portfolio8} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Card 3"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div className="portfolio-wrap">
-              <img src={portfolio9} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div className="portfolio-links">
-                  <a href={portfolio9} data-gallery="portfolioGallery" className="portfolio-lightbox" title="Web 3"><Icon icon="bx:plus" /></a>
-                  <a href="" aria-disabled title="More Details"><Icon icon="bx:link" /></a>
-                </div>
-              </div>
-            </div>
-          </div>
+              ))}
 
         </div>
 

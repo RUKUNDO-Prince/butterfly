@@ -1497,3 +1497,8 @@ section {
     text-align: center;
   }
 }
+
+.portfolio .cover {
+    width: 416px;
+    height: 312px;
+}
