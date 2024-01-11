@@ -4,7 +4,7 @@ import img from '../assets/img/hero-img.png'
 const Home = () => {
   return (
     // eslint-disable-next-line no-undef
-    <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: `url(${img})`, backgroundSize:'100%' }}>
+    <section id="hero" className="d-flex align-items-center" style={{ backgroundImage: `url(${img})`, backgroundSize:'100%', backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
 
     <div className="container" >
       <div className="row">
