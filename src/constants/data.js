@@ -1,27 +1,29 @@
+import { clients1, clients2, clients3, clients4, clients5, clients6, clients7, clients8 } from "../assets/img"
+
 export const clientsData = [
     {
-        img: '../src/assets/img/clients/client-1.png',
+        img: clients1,
     },
     {
-        img: '../src/assets/img/clients/client-2.png',
+        img: clients2,
     },
     {
-        img: '../src/assets/img/clients/client-3.png',
+        img: clients3,
     },
     {
-        img: '../src/assets/img/clients/client-4.png',
+        img: clients4,
     },
     {
-        img: '../src/assets/img/clients/client-5.png',
+        img: clients5
     },
     {
-        img: '../src/assets/img/clients/client-6.png',
+        img: clients6,
     },
     {
-        img: '../src/assets/img/clients/client-7.png',
+        img: clients7,
     },
     {
-        img: '../src/assets/img/clients/client-8.png',
+        img: clients8,
     },
 ]
 
