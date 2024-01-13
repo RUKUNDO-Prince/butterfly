@@ -1,4 +1,4 @@
-import { clients1, clients2, clients3, clients4, clients5, clients6, clients7, clients8 } from "../assets/img"
+import { clients1, clients2, clients3, clients4, clients5, clients6, clients7, clients8, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8 } from "../assets/img"
 
 export const clientsData = [
     {
@@ -76,4 +76,31 @@ export const portfoliosData = [
     { title: "Dani International", desc: 'Dani International', site: 'https://daniint.com/', img: 'https://codinghustler.com/assets/project/project-one.png'},
     { title: "Floor Range", desc: 'Think, Choose & we will Decor it.', site: 'https://www.floorrange.com/', img: 'https://codinghustler.com/assets/project/project-two.png'},
     { title: "ZUMIAS", desc: 'ZUMIAS', site: 'https://zumias.netlify.app/', img: 'https://codinghustler.com/assets/project/project-three.png'},
+]
+
+export const galleryData = [
+    {
+        img: gallery1,
+    },
+    {
+        img: gallery2,
+    },
+    {
+        img: gallery3,
+    },
+    {
+        img: gallery4,
+    },
+    {
+        img: gallery5,
+    },
+    {
+        img: gallery6,
+    },
+    {
+        img: gallery7,
+    },
+    {
+        img: gallery8,
+    },
 ]
