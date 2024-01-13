@@ -1,10 +1,10 @@
-// (function() {
+(function() {
   "use strict";
 
   /**
    * Easy selector helper function
    */
-  export const select = (el, all = false) => {
+  const select = (el, all = false) => {
     el = el.trim()
     if (all) {
       return [...document.querySelectorAll(el)]
@@ -16,7 +16,7 @@
   /**
    * Easy event listener function
    */
-  export const on = (type, el, listener, all = false) => {
+  const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
       if (all) {
@@ -30,7 +30,7 @@
   /**
    * Easy on scroll event listener 
    */
-  export const onscroll = (el, listener) => {
+  const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
@@ -38,7 +38,7 @@
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
-  export const navbarlinksActive = () => {
+  const navbarlinksActive = () => {
     let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
@@ -57,7 +57,7 @@
   /**
    * Scrolls to an element with header offset
    */
-  export const scrollto = (el) => {
+  const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
 
@@ -135,7 +135,7 @@
   /**
    * Initiate glightbox 
    */
-  export const glightbox = GLightbox({
+  const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
@@ -171,7 +171,7 @@
   /**
    * Initiate portfolio lightbox 
    */
-  export const portfolioLightbox = GLightbox({
+  const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
@@ -213,7 +213,7 @@
   /**
    * Initiate galleery lightbox 
    */
-  export const galleeryLightbox = GLightbox({
+  const galleeryLightbox = GLightbox({
     selector: '.galleery-lightbox'
   });
 
@@ -222,4 +222,4 @@
    */
   new PureCounter();
 
-// })()
+})()

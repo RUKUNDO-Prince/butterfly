@@ -37,7 +37,7 @@ const Header = () => {
         </ul>
         {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
         <Icon icon="fluent-mdl2:breadcrumb" className='mobile-nav-toggle bi bi-list' />
-        <Icon icon="uil:x" className='mobile-nav-toggle bi bi-x' />
+        {/* <Icon icon="uil:x" className='mobile-nav-toggle bi bi-x' /> */}
       </nav>
 
     </div>
