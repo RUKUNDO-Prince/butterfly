@@ -4,9 +4,9 @@ import ServicesContainer from '../containers/ServicesContainer';
 import { servicesData } from '../constants/data';
 
 const Services = () => {
-  const servicesList = servicesData.map((item) => {
+  const servicesList = servicesData.map((item, index) => {
     return (
-      <ServicesContainer key={item.icon} icon={item.icon} color={item.color} title={item.title} desc={item.desc} />
+      <ServicesContainer key={index} icon={item.icon} color={item.color} title={item.title} desc={item.desc} />
     )
   })
   return (

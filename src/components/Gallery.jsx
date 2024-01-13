@@ -6,7 +6,7 @@ import { galleryData } from '../constants/data'
 const Gallery = () => {
   const galleryList = galleryData.map((item, index) => {
     return (
-      <GalleryContainer img={item.img} />
+      <GalleryContainer key={index} img={item.img} />
     )
   })
   return (

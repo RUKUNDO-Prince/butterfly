@@ -3,9 +3,9 @@ import ClientsContainer from '../containers/ClientsContainer'
 import { clientsData } from '../constants/data'
 
 const Clients = () => {
-  const clientsList = clientsData.map((item) => {
+  const clientsList = clientsData.map((item, index) => {
     return (
-      <ClientsContainer key={item.img} {...item} />
+      <ClientsContainer key={index} {...item} />
     )
   })
   return (

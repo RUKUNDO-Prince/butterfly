@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Icon } from '@iconify/react';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_mfs0aku', 'template_n4ab5vs', form.current, 'O3OgpIeP3YtY5i4WO')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -43,7 +57,7 @@ const Contact = () => {
 
           <div className="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+            <form ref={form} onSubmit={sendEmail} method="post" role="form" className="php-email-form">
               <div className="row">
                 <div className="col-md-6 form-group">
                   <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
