@@ -1,6 +1,6 @@
 import React from 'react'
 import ClientsContainer from '../containers/ClientsContainer'
-import { clientsData } from '../data'
+import { clientsData } from '../constants/data'
 
 const Clients = () => {
   const clientsList = clientsData.map((item) => {
