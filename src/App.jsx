@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css'
-import './script.js'
+import { select, on, onscroll, navbarlinksActive, scrollto, glightbox, galleeryLightbox, portfolioLightbox } from './script.js'
 import { Home, About, Services, Portfolio, Team, Contact, Header, Footer, Counts, Clients, Testimonials, Gallery } from './components/index.js';
 
 const App = () => {

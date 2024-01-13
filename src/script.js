@@ -1,17 +1,10 @@
-/**
-* Template Name: Butterfly
-* Updated: Jul 27 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/butterfly-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-(function() {
+// (function() {
   "use strict";
 
   /**
    * Easy selector helper function
    */
-  const select = (el, all = false) => {
+  export const select = (el, all = false) => {
     el = el.trim()
     if (all) {
       return [...document.querySelectorAll(el)]
@@ -23,7 +16,7 @@
   /**
    * Easy event listener function
    */
-  const on = (type, el, listener, all = false) => {
+  export const on = (type, el, listener, all = false) => {
     let selectEl = select(el, all)
     if (selectEl) {
       if (all) {
@@ -37,7 +30,7 @@
   /**
    * Easy on scroll event listener 
    */
-  const onscroll = (el, listener) => {
+  export const onscroll = (el, listener) => {
     el.addEventListener('scroll', listener)
   }
 
@@ -45,7 +38,7 @@
    * Navbar links active state on scroll
    */
   let navbarlinks = select('#navbar .scrollto', true)
-  const navbarlinksActive = () => {
+  export const navbarlinksActive = () => {
     let position = window.scrollY + 200
     navbarlinks.forEach(navbarlink => {
       if (!navbarlink.hash) return
@@ -64,7 +57,7 @@
   /**
    * Scrolls to an element with header offset
    */
-  const scrollto = (el) => {
+  export const scrollto = (el) => {
     let header = select('#header')
     let offset = header.offsetHeight
 
@@ -142,7 +135,7 @@
   /**
    * Initiate glightbox 
    */
-  const glightbox = GLightbox({
+  export const glightbox = GLightbox({
     selector: '.glightbox'
   });
 
@@ -178,7 +171,7 @@
   /**
    * Initiate portfolio lightbox 
    */
-  const portfolioLightbox = GLightbox({
+  export const portfolioLightbox = GLightbox({
     selector: '.portfolio-lightbox'
   });
 
@@ -220,7 +213,7 @@
   /**
    * Initiate galleery lightbox 
    */
-  const galleeryLightbox = GLightbox({
+  export const galleeryLightbox = GLightbox({
     selector: '.galleery-lightbox'
   });
 
@@ -229,4 +222,4 @@
    */
   new PureCounter();
 
-})()
+// })()
