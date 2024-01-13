@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css'
 // import { select, on, onscroll, navbarlinksActive, scrollto, glightbox, galleeryLightbox, portfolioLightbox } from './script.js'
-import './script.js'
+import './Script.js'
 // import scripts from './script.js';
 import { Home, About, Services, Portfolio, Team, Contact, Header, Footer, Counts, Clients, Testimonials, Gallery } from './components/index.js';
 
